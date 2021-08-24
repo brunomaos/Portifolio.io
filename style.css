@@ -16,11 +16,19 @@ nav {
     display:flex;
     align-items: center;
 }
-#menu_nav li , #logo p{
+#logo p{
+    color: black ;
+    padding-top: 0.8em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+#menu_nav li  {
     color: whitesmoke;
     padding-right: 4em;
     padding-top: 0.8em;
     padding-bottom: 0.8em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
 }
 #logo p {
     padding-left: 4em;
@@ -92,6 +100,12 @@ nav {
 .list_presentation ul li img{
     width: 40px;
     box-shadow: 5px 10px 8px 10px #888888;
-}   
-/*painel01---------------------------------------------------*/
+}
+/*painel02---------------------------------------------------*/
+.painel02{
+    width: 100vw;
+    height: 30vh;
+    background:#1D1D1D;
+    background-attachment: scroll;
+}
 
