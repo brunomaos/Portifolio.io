@@ -6,6 +6,10 @@
 header{
     background: linear-gradient(110deg,rgb(242, 242, 242) 45% ,rgb(0, 0, 0) 32.5%),rgb(0, 0, 0) 32.5%;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
 /*nav---------------------------------------------------*/
 nav {
     display: flex;
@@ -102,10 +106,44 @@ nav {
     box-shadow: 5px 10px 8px 10px #888888;
 }
 /*painel02---------------------------------------------------*/
-.painel02{
+#painel02{
     width: 100vw;
-    height: 30vh;
+    height: 50vh;
     background:#1D1D1D;
     background-attachment: scroll;
+}
+.about_me_div{
+    width:35%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+.about_me_title{
+    padding-left: 45px;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#E8E8E8;
+    font-weight:300;
+    font-size: 90px;
+    border:  #E8E8E8 solid 5px;
+    border-top: none;
+    border-bottom: none;
+    border-radius:0px 30px 0px 30px;
+}
+.content_about_me{
+    width:70%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 3%;
+    text-align: center;
+}
+.content_about_me p{
+    font-family: 'Josefin Sans', sans-serif;
+    color:#E8E8E8;
+    font-weight:100;
+    font-size: 30px;
+    border:  #E8E8E8 solid 5px;
+    border-bottom: none;
+    border-top: none;
+    border-radius:20px;
 }
 
