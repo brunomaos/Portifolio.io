@@ -13,35 +13,53 @@ a{
 /*nav---------------------------------------------------*/
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 #menu_nav{
+    width: 30em;
     list-style: none;
     display:flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    padding-top:0.3em;
 }
 #logo p{
     color: black ;
-    padding-top: 0.8em;
+    padding:0.8em;
+    margin-right: 10em;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
+    border-radius: 40px;
 }
 #menu_nav li  {
     color: whitesmoke;
-    padding-right: 4em;
-    padding-top: 0.8em;
-    padding-bottom: 0.8em;
+    padding:0.8em;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
+    border-radius: 40px;
 }
-#logo p {
+#logo{
     padding-left: 4em;
+    padding-top:0.3em;
 }
+/*HOVER NAV*/
+
+#logo p:hover{
+    background-color: rgb(0, 0, 0);
+    color:white;
+}
+
+#menu_nav li:hover{
+    background-color: rgb(242, 242, 242);
+    color:  rgb(0, 0, 0);
+}
+
 /*painel01---------------------------------------------------*/
 .painel01{
     overflow-y: hidden;
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     align-items: center;
     display:flow-root;  
 }
@@ -121,7 +139,7 @@ nav {
 .about_me_title{
     padding-left: 45px;
     font-family: 'Josefin Sans', sans-serif;
-    color:#E8E8E8;
+    color:white;
     font-weight:300;
     font-size: 90px;
     border:  #E8E8E8 solid 5px;
@@ -138,7 +156,7 @@ nav {
 }
 .content_about_me p{
     font-family: 'Josefin Sans', sans-serif;
-    color:#E8E8E8;
+    color:white;
     font-weight:100;
     font-size: 30px;
     border:  #E8E8E8 solid 5px;
@@ -146,4 +164,37 @@ nav {
     border-top: none;
     border-radius:20px;
 }
+/*painel03---------------------------------------------------*/
+.painel03{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: linear-gradient(110deg,white 45% ,yellow, yellow 32.5%);
+}
+.p3_container01{
+    width: 40%;
+    height: 100%;
+}
+.img_book{
+    width:250px;
+    position: relative;
+    left: 15%;
+    top: 15%;
+    transform: rotate(20deg);
+    
+}
+.p3_container02{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.p3_box{
+    background-color: aliceblue;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 
